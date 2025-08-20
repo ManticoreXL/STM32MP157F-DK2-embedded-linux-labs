@@ -1,0 +1,32 @@
+waiter.o: waiter.c \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdc-predef.h \
+ waiter.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/global.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/time.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/features.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/alltypes.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/poll.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/poll.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdlib.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/alloca.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/string.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/strings.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/errno.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/errno.h \
+ misc.h ../include/gettext.h
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdc-predef.h:
+waiter.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/global.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/time.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/features.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/alltypes.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/poll.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/poll.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdlib.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/alloca.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/string.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/strings.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/errno.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/errno.h:
+misc.h:
+../include/gettext.h:

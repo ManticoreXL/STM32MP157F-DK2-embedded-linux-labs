@@ -1,0 +1,15 @@
+st2095.o: st2095.c \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdc-predef.h \
+ ../include/aconfig.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdio.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/features.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/alltypes.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/math.h \
+ st2095.h
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdc-predef.h:
+../include/aconfig.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdio.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/features.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/alltypes.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/math.h:
+st2095.h:

@@ -1,0 +1,96 @@
+alsactl-state.o: state.c \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdc-predef.h \
+ ../include/aconfig.h ../include/version.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/getopt.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdarg.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/alltypes.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdio.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/features.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/assert.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/errno.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/errno.h \
+ alsactl.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdbool.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/asoundlib.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/unistd.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/posix.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdlib.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/alloca.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/sys/types.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/endian.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/sys/select.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/string.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/strings.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/fcntl.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/fcntl.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/poll.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/poll.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/asoundef.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/version.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/global.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/time.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/input.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/output.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/error.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/conf.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/pcm.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdint.h \
+ /home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/stdint.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/rawmidi.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/ump.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/timer.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/hwdep.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/control.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/mixer.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/seq_event.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/seq.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/seqmid.h \
+ /home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/seq_midi_event.h
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdc-predef.h:
+../include/aconfig.h:
+../include/version.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/getopt.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdarg.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/alltypes.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdio.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/features.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/assert.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/errno.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/errno.h:
+alsactl.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdbool.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/asoundlib.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/unistd.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/posix.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdlib.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/alloca.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/sys/types.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/endian.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/sys/select.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/string.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/strings.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/fcntl.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/fcntl.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/poll.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/poll.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/asoundef.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/version.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/global.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/time.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/input.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/output.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/error.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/conf.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/pcm.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/stdint.h:
+/home/sslab02/x-tools/arm-training-linux-musleabihf/arm-training-linux-musleabihf/sysroot/usr/include/bits/stdint.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/rawmidi.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/ump.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/timer.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/hwdep.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/control.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/mixer.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/seq_event.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/seq.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/seqmid.h:
+/home/sslab02/STM32MP157F-DK2/embedded-linux-labs/thirdparty/staging/usr/include/alsa/seq_midi_event.h:

@@ -1,0 +1,38 @@
+# .gitignore for STM32MP157F-DK2 Labs
+
+# 1. Buildroot related excludes
+# Exclude all Buildroot build artifacts (most important)
+buildroot/buildroot/output/
+# Exclude downloaded source archives
+buildroot/buildroot/dl/
+
+# 2. Kernel related excludes
+# Exclude all artifacts from kernel compilation
+kernel/linux/*.o
+kernel/linux/*.ko
+kernel/linux/*.cmd
+kernel/linux/.*.d
+kernel/linux/.*.cmd
+kernel/linux/zImage
+kernel/linux/vmlinux
+kernel/linux/System.map
+kernel/linux/Module.symvers
+# Device Tree Blobs
+kernel/linux/arch/arm/boot/dts/*.dtb
+# Generated temporary files
+kernel/linux/.tmp_versions/
+
+# 3. Toolchain related excludes
+# Exclude Crosstool-NG source and build artifacts
+toolchain/crosstool-ng/
+# Exclude the generated toolchain
+toolchain/x-tools/
+
+# 4. Other common excludes
+# Backup files
+*~
+*.swp
+*.swo
+
+# VSCode settings
+.vscode/
